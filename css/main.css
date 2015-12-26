@@ -1,0 +1,136 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+/* Style for Divs */
+#wrapper{
+width:1000px;
+margin:5px auto;
+border: 1px solid black;
+padding: 10px;
+text-align: center;
+background-color: #E4E6E8;
+}
+
+
+#header{
+font:bold 50px cambria;
+padding:20px;
+background-color:white;
+border:1px solid black;
+text-align:center;
+}
+
+
+#nav{
+border:1px solid black;
+margin-top:5;
+padding:5px;
+background-color:white;
+text-align:center;
+font:15px Tahoma;
+
+}
+
+#welcome{
+color:gray;
+font-size: 12px;
+/*font-style:italic;*/
+font-family:book antiqua;
+float: right;
+}
+#main_section{
+display:block;
+border:1px solid black;
+text-align:center;
+margin-top: 5px;
+padding-top:10px;
+padding-bottom :20px;
+}
+
+
+header, nav, main_section, footer{
+display: block;
+}
+
+#footer{
+margin-top:5px;
+border:1px solid black;
+font: bold 18px 'Georgia';
+text-align: center;
+padding:5px;
+}
+/* Div style ends here */
+
+/* Style for elements */
+
+a{
+color: green;
+}
+
+a:hover{
+color:blue;
+font-size:15px;
+}
+
+table {
+padding: 2px;
+border:2px solid gray;
+text-align: center;
+background-color:lightyellow;
+}
+
+
+th, td{
+padding: 4px;
+border:1px solid gray;
+text-align: center;
+background-color:lightyellow;
+}
+
+textarea{
+color:gray;
+padding:2px;
+}
+
+th{
+background-color:yellow;
+border:2px solid gray;
+}
+
+input{
+box-shadow: 4px 4px gray;
+border:1px solid gray;
+padding:2px;
+}
+
+option{
+box-shadow: 4px 4px gray;
+border:1px solid gray;
+padding:2px;
+}
+
+select{
+border:1px solid gray;
+padding:2px;
+}
+/* Style for elements endshere */
+
+/* User defined Class */
+
+.shadow{
+text-shadow: 10px 10px 15px gray;
+}
+
+.button {
+padding:2px;
+}
+.button:hover {
+color:red;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+/* user defined class ends here */

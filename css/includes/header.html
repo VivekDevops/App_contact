@@ -1,0 +1,16 @@
+<div id="header">
+<script tupe="text/javascript">
+function welcome(){
+	document.getElementById('welcome').style.display='block';
+}
+</script>
+			<div id="welcome" style="display: none">
+			<?php			
+			session_start();
+			if(!isset($_SESSION['name'])){
+			welcome();
+			echo "Welcome" . $_SESSION['name'] . "!";
+			}
+			<p class="shadow">Pager Tool</p>
+		
+</div>
